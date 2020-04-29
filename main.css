@@ -1,0 +1,7 @@
+@import "./Home/bloghomepage.css";
+@import "./Contact/contact.css";
+@import "/Home/Posts/blogpost.css";
+
+html {
+    font-family: 'Roboto', sans-serif;
+} 

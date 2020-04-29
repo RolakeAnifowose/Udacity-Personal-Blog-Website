@@ -1,0 +1,46 @@
+.page-content {
+    display: grid;
+    grid-area: auto;
+}
+
+.name-and-job {
+    text-align: center;
+}
+
+.blog-content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content {
+    font-size: .9rem;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.9rem;
+}
+
+.social-media-content {
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .blog-content {
+        max-width: 60%;
+    }
+}

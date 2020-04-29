@@ -1,0 +1,127 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#author-job {
+    color: #df6497;
+}
+
+.nav-bar {
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-post-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.blog-post-title:hover {
+    color: #df6497;
+}
+
+.blog-post-data {
+    text-align: justify;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 300;
+}
+
+.continue-reading {
+    font-size: 1rem;
+    color: #df6497;
+}
+
+.footer {
+    padding: 1rem;
+    justify-content: center;
+    background: #fafafa;
+    font-weight: 300;
+}
+
+@media (min-width: 767px) {
+    .container-content .blog-post {
+        width: 968px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        margin-bottom: 3rem;
+    }
+    
+    #post-one {
+        margin-top: 2rem;
+    }
+
+    .container-content .blog-post .blog-post-header{
+        width: 50%;
+        float: left;
+    }
+    
+    .blog-post-header {
+        width: 50%;
+        float: left;
+    }
+
+    .blog-post-image {
+        width: 50%;
+        float: right;
+    }
+
+    .blog-post-data {
+        width: 50%;
+        float: left;
+        padding: unset;
+    }
+    
+    .blog-post:nth-child(even) .blog-post-header {
+        width: 50%;
+        float: right;
+    }
+    
+    .blog-post:nth-child(even) .blog-post-data {
+        width: 50%;
+        float: right;
+    }
+    
+    .blog-post:nth-child(even) .blog-post-image {
+        width: 50%;
+        float: left;
+    } 
+    
+    .continue-reading {
+        float: left;
+        border: none;
+        font-size: 0.8rem;
+        color: #df6497;
+    }
+} 
