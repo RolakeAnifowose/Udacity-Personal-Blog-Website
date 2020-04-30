@@ -16,7 +16,7 @@
 }
 
 .content {
-    font-size: .9rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: justify;
     line-height: 1.9rem;
@@ -24,7 +24,7 @@
 
 .social-media-content {
     font-weight: 300;
-    font-size: .9rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
 }
 
 .title {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h2 {
@@ -42,5 +42,9 @@ h2 {
 @media (min-width: 768px) {
     .blog-content {
         max-width: 60%;
+    }
+
+    .name-and-job {
+        font-size: 1.2rem;
     }
 }

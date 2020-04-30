@@ -1,6 +1,7 @@
-@import "./Home/bloghomepage.css";
-@import "./Contact/contact.css";
-@import "/Home/Posts/blogpost.css";
+@import "./Home/Styling/bloghomepage.css";
+@import "/Home/Styling/blogpost.css";
+@import "./Home/Styling/contact.css";
+
 
 html {
     font-family: 'Roboto', sans-serif;

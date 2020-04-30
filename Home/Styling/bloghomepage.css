@@ -101,6 +101,7 @@ a {
         width: 50%;
         float: left;
         padding: unset;
+        font-size: 1.2rem;
     }
     
     .blog-post:nth-child(even) .blog-post-header {
