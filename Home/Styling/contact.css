@@ -1,0 +1,12 @@
+.socials {
+    display: grid;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+     text-decoration: none;
+}
