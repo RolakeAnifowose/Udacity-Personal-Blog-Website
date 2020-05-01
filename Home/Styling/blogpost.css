@@ -39,6 +39,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+q {
+    font-style: italic;
+}
+
 @media (min-width: 768px) {
     .blog-content {
         max-width: 60%;
